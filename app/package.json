@@ -1,0 +1,29 @@
+{
+  "name": "Tessa-App",
+  "productName": "Tessa-App",
+  "version": "1.0.0",
+  "description": "Electron web app for the tessa.cc",
+  "private": true,
+  "main": "main.js",
+  "author": "",
+  "license": "GNU General Public License",
+  "homepage": "https://github.com/4LOOPph/tessa-app#readme",
+  "keywords": [
+    "Electron",
+    "Ionic-Creator",
+    "Prototyping",
+    "Creator"
+  ],
+  "bugs": {
+    "url": "https://github.com/4LOOPph/tessa-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4LOOPph/tessa-app.git"
+  },
+  "dependencies": {
+      "electron-config": "^0.2.1",
+      "electron-dl": "^1.5.0",
+      "electron-is-dev": "^0.1.2"
+  }
+}

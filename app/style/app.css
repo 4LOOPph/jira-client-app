@@ -1,0 +1,7 @@
+::-webkit-scrollbar {
+    display: none!important;
+}
+#nav-dash,
+#nav {
+    -webkit-app-region: drag;
+}
