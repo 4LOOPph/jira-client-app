@@ -105,21 +105,21 @@ var template_win = [{
     label: 'Help',
     role: 'help',
     submenu: [{
-        label: 'About Tessa',
+        label: 'About 4LOOP JIRA',
         click: function() {
-            require('electron').shell.openExternal("https://github.com/4LOOPph/tessa-app/releases/tag/" + app_version)
+            require('electron').shell.openExternal("https://github.com/4LOOPph/jira-client-app/releases/tag/" + app_version)
         }
     }, {
-        label: 'View Tessa',
+        label: 'View 4LOOP JIRA',
         click: function() {
-            require('electron').shell.openExternal("https://tessa.cc/")
+            require('electron').shell.openExternal("https://4loopph.atlassian.net/")
         }
     }, {
         type: 'separator'
     }, {
         label: 'Changelog',
         click: function() {
-            require('electron').shell.openExternal("https://github.com/4LOOPph/tessa-app/releases/tag/" + app_version)
+            require('electron').shell.openExternal("https://github.com/4LOOPph/jira-client-app/releases/tag/" + app_version)
         }
     }]
 }];
@@ -225,6 +225,12 @@ var template_osx = [{
         accelerator: 'Cmd+M',
         role: 'minimize'
     }, {
+        label: 'Zoom',
+        role: 'zoom',
+        click() {
+             app.zoomToPageWidth = true;
+        }
+    }, {
         label: 'Close',
         accelerator: 'Cmd+W',
         role: 'close'
@@ -233,21 +239,21 @@ var template_osx = [{
     label: 'Help',
     role: 'help',
     submenu: [{
-        label: 'About Tessa',
+        label: 'About 4LOOP JIRA',
         click: function() {
-            require('electron').shell.openExternal("https://github.com/4LOOPph/tessa-app/releases/tag/" + app_version)
+            require('electron').shell.openExternal("https://github.com/4LOOPph/jira-client-app/releases/tag/" + app_version)
         }
     }, {
-        label: 'View Tessa',
+        label: 'View 4LOOP JIRA',
         click: function() {
-            require('electron').shell.openExternal("https://tessa.cc/")
+            require('electron').shell.openExternal("https://4loopph.atlassian.net/")
         }
     }, {
         type: 'separator'
     }, {
         label: 'Changelog',
         click: function() {
-            require('electron').shell.openExternal("https://github.com/4LOOPph/tessa-app/releases/tag/" + app_version)
+            require('electron').shell.openExternal("https://github.com/4LOOPph/jira-client-app/releases/tag/" + app_version)
         }
     }]
 }];

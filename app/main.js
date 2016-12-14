@@ -42,7 +42,6 @@ function createMainWindow() {
         fullscreenable: true,
         autoHideMenuBar: true,
         titleBarStyle: 'hidden-inset',
-        titleBarStyle: 'default',
         webPreferences: {
             nodeIntegration: false,
             plugins: true
@@ -79,7 +78,7 @@ app.on('ready', () => {
         app_page.insertCSS(fs.readFileSync(path.join(__dirname, 'style/app.css'), 'utf8'));
 
         // MacOS Logo offset
-        if (process.platform == 'darwin') { app_page.insertCSS('.navbar-left{ margin-left: 64px;!important; }'); }
+        if (process.platform == 'darwin') { app_page.insertCSS('.aui-header-inner{ margin-left: 64px;!important; } .aui-header-before {display:none;}'); }
 
         mainWindow.show();
     });

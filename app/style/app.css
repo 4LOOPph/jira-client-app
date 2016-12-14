@@ -5,3 +5,7 @@
 #nav {
     -webkit-app-region: drag;
 }
+
+#footer{
+	display:none;
+}

@@ -1,13 +1,13 @@
 {
-  "name": "Tessa-App",
-  "productName": "Tessa-App",
+  "name": "4LOOP_JIRA",
+  "productName": "4loop-jira-client",
   "version": "1.0.0",
-  "description": "Electron web app for the tessa.cc",
+  "description": "Electron web app for the 4LOOP JIRA",
   "private": true,
   "main": "main.js",
   "author": "",
   "license": "GNU General Public License",
-  "homepage": "https://github.com/4LOOPph/tessa-app#readme",
+  "homepage": "https://github.com/4LOOPph/jira-client-app#readme",
   "keywords": [
     "Electron",
     "Ionic-Creator",
@@ -15,11 +15,11 @@
     "Creator"
   ],
   "bugs": {
-    "url": "https://github.com/4LOOPph/tessa-app/issues"
+    "url": "https://github.com/4LOOPph/jira-client-app/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/4LOOPph/tessa-app.git"
+    "url": "git+https://github.com/4LOOPph/jira-client-app.git"
   },
   "dependencies": {
       "electron-config": "^0.2.1",

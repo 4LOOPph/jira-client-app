@@ -1,5 +1,5 @@
 {
-  "name": "jira-client-app",
+  "name": "4LOOP_JIRA",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -23,9 +23,9 @@
     "dist": "npm run compile && build"
   },
   "build": {
-    "appId": "com.engagis.au.tessa",
+    "appId": "com.4loop.ph.jira-client-app",
     "category": "public.app-category.social",
-    "productName": "Tessa-App",
+    "productName": "4LOOP JIRA",
     "dmg": {
       "contents": [
         {
@@ -61,7 +61,7 @@
     "electron-is-dev": "^0.1.2"
   },
   "devDependencies": {
-    "electron": "^1.4.1",
+    "electron": "^1.4.12",
     "electron-builder": "^7.3.0",
     "rimraf": "^2.5.4",
     "spectron": "^3.4.0"
