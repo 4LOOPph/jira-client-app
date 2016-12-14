@@ -42,8 +42,12 @@
       ]
     },
     "win": {
+      "target": [
+        "squirrel",
+        "zip"
+      ],
       "remoteReleases": "https://github.com/4LOOPph/jira-client-app",
-      "loadingGif": "build/install-spinner.gif"
+      "msi": true
     }
   },
   "packageIgnore": [
@@ -53,7 +57,10 @@
     ".travis.yml",
     "appveyor.yml",
     "tests",
-    "dist"
+    "dist",
+    "build/1.png",
+    "build/2.png",
+    "build/3.png"
   ],
   "dependencies": {
     "electron-config": "^0.2.1",
