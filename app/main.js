@@ -78,7 +78,7 @@ app.on('ready', () => {
         app_page.insertCSS(fs.readFileSync(path.join(__dirname, 'style/app.css'), 'utf8'));
 
         // MacOS Logo offset
-        if (process.platform == 'darwin') { app_page.insertCSS('.aui-header-inner{ margin-left: 64px;!important; } .aui-header-before {display:none;}'); }
+        if (process.platform == 'darwin') { app_page.insertCSS('.aui-header-inner{ margin-left: 64px;!important; }'); }
 
         mainWindow.show();
     });
@@ -90,13 +90,13 @@ app.on('ready', () => {
     });
 
     //Shortcut to reload the page.
-    globalShortcut.register('CmdOrCtrl+R', () => {
+   /* globalShortcut.register('CmdOrCtrl+R', () => {
         mainWindow.webContents.reload();
     })
     globalShortcut.register('CmdOrCtrl+Left', () => {
         mainWindow.webContents.goBack();
         mainWindow.webContents.reload();
-    })
+    })*/
 
     mainWindow.on('app-command', (e, cmd) => {
         // Navigate the window back when the user hits their mouse back button

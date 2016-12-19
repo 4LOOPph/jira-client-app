@@ -1,11 +1,16 @@
 ::-webkit-scrollbar {
     display: none!important;
 }
-#nav-dash,
-#nav {
+
+nav,
+.aui-header {
     -webkit-app-region: drag;
 }
 
-#footer{
-	display:none;
+#footer, footer {
+    display: none;
+}
+
+.aui-header-before {
+    display: none;
 }
