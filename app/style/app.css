@@ -14,3 +14,11 @@ nav,
 .aui-header-before {
     display: none;
 }
+
+.aui-header .aui-header-secondary .aui-nav .jira-feedback-plugin{
+	display: none !important;
+}
+
+.aui-header .aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless):after {
+	display:  none;
+}
